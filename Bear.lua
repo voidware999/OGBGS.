@@ -542,7 +542,7 @@ TextButton.MouseButton1Click:connect(function()
 			end
 
 
-			firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart"), pink[#pink].Detect, 0)
+			firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart"), pink[#pink]:WaitForChild("Detect"), 0)
 			if #pink - 1 > 0 then
 				firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, pink[#pink - 1].Detect, 0)
 				if #pink - 2 > 0 then
