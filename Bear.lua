@@ -607,6 +607,7 @@ TextButton.MouseButton1Click:connect(function()
 					end
 				end
 			end
+			end
 			if game.Workspace:FindFirstChild("Orange") then
 				local orange = {}
 
@@ -696,7 +697,6 @@ TextButton.MouseButton1Click:connect(function()
 				end
 
 			end
-		end
 
 
 		task.wait(.2)
