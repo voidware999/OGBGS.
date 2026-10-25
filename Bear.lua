@@ -525,6 +525,7 @@ TextButton.MouseButton1Click:connect(function()
 
 	while toggle == true do
 		if game.Workspace:FindFirstChild("Pink") then
+				if game.Workspace:FindFirstChild("Orange") then
 			local pink = {}
 
 			for _, item in ipairs(game.Workspace:GetChildren("Pink")) do
@@ -693,7 +694,7 @@ TextButton.MouseButton1Click:connect(function()
 					end
 				end
 			end
-
+		end
 		end
 
 
