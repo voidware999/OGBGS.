@@ -194,6 +194,18 @@ Text_8.TextSize = 29.000
 
 Folder.Parent = Frame
 
+Text_10.Name = "Text"
+Text_10.Parent = Folder
+Text_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Text_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text_10.BorderSizePixel = 0
+Text_10.Position = UDim2.new(0.77700001, 0, 0.465000004, 0)
+Text_10.Size = UDim2.new(0, 5, 0, 38)
+Text_10.Font = Enum.Font.SourceSans
+Text_10.Text = "_"
+Text_10.TextColor3 = Color3.fromRGB(0, 221, 255)
+Text_10.TextSize = 29.000
+
 Text_15.Name = "Text"
 Text_15.Parent = Folder
 Text_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
