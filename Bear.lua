@@ -40,6 +40,8 @@ local Text_32 = Instance.new("TextLabel")
 local Text_33 = Instance.new("TextLabel")
 local Text_34 = Instance.new("TextLabel")
 local toggle = false
+local TextButton2 = Instance.new("TextButton")
+local toggle2 = false
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -446,6 +448,17 @@ Text_34.Text = "C"
 Text_34.TextColor3 = Color3.fromRGB(255, 0, 0)
 Text_34.TextSize = 29.000
 
+TextButton2.Parent = Frame
+TextButton2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.BorderSizePixel = 0
+TextButton2.Position = UDim2.new(0.855773091, 0, 0.5625, 0)
+TextButton2.Size = UDim2.new(0, 34, 0, 23)
+TextButton2.Font = Enum.Font.SourceSans
+TextButton2.Text = "Auto 2"
+TextButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.TextSize = 14.000
+
 
 Instance.new("UIDragDetector").Parent = Frame
 
@@ -472,7 +485,7 @@ TextButton.MouseButton1Click:connect(function()
 					table.insert(pink, item)
 				end
 			end
-			
+
 			firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 5), pink[#pink]:WaitForChild("Detect", 5), 0)
 			if #pink - 1 > 0 then
 				firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, pink[#pink - 1].Detect, 0)
@@ -548,97 +561,131 @@ TextButton.MouseButton1Click:connect(function()
 				end
 			end
 		end
-			if game.Workspace:FindFirstChild("Orange") then
-				local orange = {}
+		if game.Workspace:FindFirstChild("Orange") then
+			local orange = {}
 
-				for _, item in ipairs(game.Workspace:GetChildren("Orange")) do
-					if item.Name == "Orange" then
-						table.insert(orange, item)
-					end
+			for _, item in ipairs(game.Workspace:GetChildren("Orange")) do
+				if item.Name == "Orange" then
+					table.insert(orange, item)
 				end
-				
-
-				firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 5), orange[#orange]:WaitForChild("Detect", 5), 0)
-				if #orange - 1 > 0 then
-					firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 1].Detect, 0)
-					if #orange - 2 > 0 then
-						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 2].Detect, 0)
-						if #orange - 3 > 0 then
-							firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 3].Detect, 0)
-							if #orange - 4 > 0 then
-								firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 4].Detect, 0)
-								if #orange - 5 > 0 then
-									firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 5].Detect, 0)
-									if #orange - 6 > 0 then
-										firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 6].Detect, 0)
-										if #orange - 7 > 0 then
-											firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 7].Detect, 0)
-											if #orange - 8 > 0 then
-												firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 8].Detect, 0)
-												if #orange - 9 > 0 then
-													firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 9].Detect, 0)
-													if #orange - 10 > 0 then
-														firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 10].Detect, 0)
-														if #orange - 11 > 0 then
-															firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 11].Detect, 0)
-															if #orange - 12 > 0 then
-																firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 12].Detect, 0)
-															end
-														end
-													end
-												end
-											end
-										end
-									end
-								end
-							end
-						end
-					end
-				end
-
-				
-
-				firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 5), orange[#orange]:WaitForChild("Detect", 5), 1)
-				if #orange - 1 > 0 then
-					firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 1].Detect, 1)
-					if #orange - 2 > 0 then
-						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 2].Detect, 1)
-						if #orange - 3 > 0 then
-							firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 3].Detect, 1)
-							if #orange - 4 > 0 then
-								firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 4].Detect, 1)
-								if #orange - 5 > 0 then
-									firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 5].Detect, 1)
-									if #orange - 6 > 0 then
-										firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 6].Detect, 1)
-										if #orange - 7 > 0 then
-											firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 7].Detect, 1)
-											if #orange - 8 > 0 then
-												firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 8].Detect, 1)
-												if #orange - 9 > 0 then
-													firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 9].Detect, 1)
-													if #orange - 10 > 0 then
-														firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 10].Detect, 1)
-														if #orange - 11 > 0 then
-															firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 11].Detect, 1)
-															if #orange - 12 > 0 then
-																firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 12].Detect, 1)
-															end
-														end
-													end
-												end
-											end
-										end
-									end
-								end
-							end
-						end
-					end
-				end
-
 			end
 
 
+			firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 5), orange[#orange]:WaitForChild("Detect", 5), 0)
+			if #orange - 1 > 0 then
+				firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 1].Detect, 0)
+				if #orange - 2 > 0 then
+					firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 2].Detect, 0)
+					if #orange - 3 > 0 then
+						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 3].Detect, 0)
+						if #orange - 4 > 0 then
+							firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 4].Detect, 0)
+							if #orange - 5 > 0 then
+								firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 5].Detect, 0)
+								if #orange - 6 > 0 then
+									firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 6].Detect, 0)
+									if #orange - 7 > 0 then
+										firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 7].Detect, 0)
+										if #orange - 8 > 0 then
+											firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 8].Detect, 0)
+											if #orange - 9 > 0 then
+												firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 9].Detect, 0)
+												if #orange - 10 > 0 then
+													firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 10].Detect, 0)
+													if #orange - 11 > 0 then
+														firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 11].Detect, 0)
+														if #orange - 12 > 0 then
+															firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 12].Detect, 0)
+														end
+													end
+												end
+											end
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+
+
+
+			firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 5), orange[#orange]:WaitForChild("Detect", 5), 1)
+			if #orange - 1 > 0 then
+				firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 1].Detect, 1)
+				if #orange - 2 > 0 then
+					firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 2].Detect, 1)
+					if #orange - 3 > 0 then
+						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 3].Detect, 1)
+						if #orange - 4 > 0 then
+							firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 4].Detect, 1)
+							if #orange - 5 > 0 then
+								firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 5].Detect, 1)
+								if #orange - 6 > 0 then
+									firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 6].Detect, 1)
+									if #orange - 7 > 0 then
+										firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 7].Detect, 1)
+										if #orange - 8 > 0 then
+											firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 8].Detect, 1)
+											if #orange - 9 > 0 then
+												firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 9].Detect, 1)
+												if #orange - 10 > 0 then
+													firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 10].Detect, 1)
+													if #orange - 11 > 0 then
+														firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 11].Detect, 1)
+														if #orange - 12 > 0 then
+															firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, orange[#orange - 12].Detect, 1)
+														end
+													end
+												end
+											end
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+
+		end
+
+
+		task.wait(.2)
+	end
+end)
+
+TextButton2.MouseButton1Click:Connect(function()
+	if toggle2 == false then
+		toggle2 = true
+		TextButton2.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+	elseif toggle2 == true then
+		toggle2 = false
+		TextButton2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	end
+
+	while toggle2 == true do
+		local player = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1)
+		if game.Workspace:FindFirstChild("Map") then
+			if game.Workspace.Map:FindFirstChild("Candy_25") then
+				player.CFrame = game.Workspace.Map:WaitForChild("Candy_25", 1).CFrame + Vector3.new(0, 3, 0)
+				player.CFrame = CFrame.new(player.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
+				task.wait(.1)
+			elseif game.Workspace.Map:FindFirstChild("Candy_10") then
+				player.CFrame = game.Workspace.Map:WaitForChild("Candy_10", 1).CFrame + Vector3.new(0, 3, 0)
+				player.CFrame = CFrame.new(player.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
+				task.wait(.1)
+			elseif game.Workspace.Map:FindFirstChild("Candy_5") then
+				player.CFrame = game.Workspace.Map:WaitForChild("Candy_5", 1).CFrame + Vector3.new(0, 3, 0)
+				player.CFrame = CFrame.new(player.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
+				task.wait(.1)
+			elseif game.Workspace.Map:FindFirstChild("Candy_1") then
+				player.CFrame = game.Workspace.Map:WaitForChild("Candy_1", 1).CFrame + Vector3.new(0, 3, 0)
+				player.CFrame = CFrame.new(player.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
+				task.wait(.1)
+			end
+		end
 		task.wait(.2)
 	end
 end)
