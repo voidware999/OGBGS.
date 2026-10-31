@@ -671,19 +671,19 @@ TextButton2.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1)
 		if game.Workspace:FindFirstChild("Map") then
 			if game.Workspace.Map:FindFirstChild("Candy_25") then
-				player.CFrame = game.Workspace.Map:WaitForChild("Candy_25", 1).CFrame + Vector3.new(0, 3, 0)
+				player.CFrame = game.Workspace.Map:WaitForChild("Candy_25", 1).CFrame + Vector3.new(0, 5, 0)
 				player.CFrame = CFrame.new(player.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 				task.wait(.1)
 			elseif game.Workspace.Map:FindFirstChild("Candy_10") then
-				player.CFrame = game.Workspace.Map:WaitForChild("Candy_10", 1).CFrame + Vector3.new(0, 3, 0)
+				player.CFrame = game.Workspace.Map:WaitForChild("Candy_10", 1).CFrame + Vector3.new(0, 5, 0)
 				player.CFrame = CFrame.new(player.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 				task.wait(.1)
 			elseif game.Workspace.Map:FindFirstChild("Candy_5") then
-				player.CFrame = game.Workspace.Map:WaitForChild("Candy_5", 1).CFrame + Vector3.new(0, 3, 0)
+				player.CFrame = game.Workspace.Map:WaitForChild("Candy_5", 1).CFrame + Vector3.new(0, 5, 0)
 				player.CFrame = CFrame.new(player.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 				task.wait(.1)
 			elseif game.Workspace.Map:FindFirstChild("Candy_1") then
-				player.CFrame = game.Workspace.Map:WaitForChild("Candy_1", 1).CFrame + Vector3.new(0, 3, 0)
+				player.CFrame = game.Workspace.Map:WaitForChild("Candy_1", 1).CFrame + Vector3.new(0, 5, 0)
 				player.CFrame = CFrame.new(player.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 				task.wait(.1)
 			end
