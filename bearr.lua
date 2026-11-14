@@ -637,6 +637,7 @@ TextButton.MouseButton1Click:Connect(function()
 
 							table.insert(table1, item2)
 						end
+						local item22 = item2.Parent:WaitForChild("Part", 1)
 					end
 				end
 				local table2 = {}
@@ -646,73 +647,101 @@ TextButton.MouseButton1Click:Connect(function()
 
 							table.insert(table2, item3)
 						end
+						local item33 = item3.Parent:WaitForChild("Part", 1)
 					end
 				end
 				if table0[1] then
+					if table1[1] then
 					if table1[1]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[1].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[1].ClickDetector)
 					end
+					end
+					if table1[2] then
 					if table1[2]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[2].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[2].ClickDetector)
 					end
+					end
+					if table1[3] then
 					if table1[3]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[3].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[3].ClickDetector)
 					end
+					end
+					if table1[4] then
 					if table1[4]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[4].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[4].ClickDetector)
 					end
+					end
+					if table1[5] then
+					
 					if table1[5]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[5].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[5].ClickDetector)
 					end
+					end
+					if table1[6] then
 					if table1[6]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[6].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[6].ClickDetector)
 					end
+					end
+					if table1[7] then
 					if table1[7]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[7].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[7].ClickDetector)
 					end
+					end
+					if table1[8] then
 					if table1[8]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[8].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[8].ClickDetector)
 					end
+					end
+					if table1[9] then
 					if table1[9]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[9].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[9].ClickDetector)
 					end
+					end
+					if table1[10] then
 					if table1[10]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[10].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[10].ClickDetector)
 					end
+					end
+					if table1[11] then
 					if table1[11]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[11].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[11].ClickDetector)
 					end
+					end
+					if table1[12] then
 					if table1[12]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[12].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[12].ClickDetector)
 					end
+					end
+					if table1[13] then
 					if table1[13]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table1[13].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table1[13].ClickDetector)
+					end
 					end
 				end
 
@@ -720,70 +749,96 @@ TextButton.MouseButton1Click:Connect(function()
 
 
 				if table0[2] then
+					if table2[1] then
 					if table2[1]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[1].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[1].ClickDetector)
 					end
+					end
+					if table2[2] then
 					if table2[2]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[2].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[2].ClickDetector)
 					end
+					end
+					if table2[3] then
 					if table2[3]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[3].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[3].ClickDetector)
 					end
+					end
+					if table2[4] then
 					if table2[4]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[4].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[4].ClickDetector)
 					end
+					end
+					if table2[5] then
 					if table2[5]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[5].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[5].ClickDetector)
 					end
+					end
+					if table2[6] then
 					if table2[6]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[6].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[6].ClickDetector)
 					end
+					end
+					if table2[7] then
 					if table2[7]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[7].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[7].ClickDetector)
 					end
+					end
+					if table2[8] then
 					if table2[8]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[8].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[8].ClickDetector)
 					end
+					end
+					if table2[9] then
 					if table2[9]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[9].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[9].ClickDetector)
 					end
+					end
+					if table2[10] then
 					if table2[10]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[10].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[10].ClickDetector)
 					end
+					end
+					if table2[11] then
 					if table2[11]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[11].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[11].ClickDetector)
 					end
+					end
+					if table2[12] then
 					if table2[12]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[12].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[12].ClickDetector)
 					end
+					end
+					if table2[13] then
 					if table2[13]:FindFirstChild("ClickDetector") then
 						game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart", 1).CFrame = table2[13].CFrame
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position) * CFrame.Angles(math.rad(180), math.rad(90), math.rad(180))
 						fireclickdetector(table2[13].ClickDetector)
+					end
 					end
 				end
 			end
